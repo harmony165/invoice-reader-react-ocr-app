@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Points to get up and running with the app.
+
+1. For the proper functioning of the App there are 2 pre-requisites.
+2. The API key, this must be entered into the .env file and can be generated on the Nanonets Website 
+3. The model ID, this can be found when you log in and create a new model. Select the "Table" option as shown in the screenshot and add the ID to the url constant of the React app eg:-  const url =
+    "https://app.nanonets.com/api/v2/OCR/Model/${MODEL_ID}/LabelFile/"; 
+    it should look something like this  const url =
+    "https://app.nanonets.com/api/v2/OCR/Model/30e4ad4c-6e87-49d7-933e-7e3befb5f59f/LabelFile/";
+    
+![Screenshot 2022-05-30 at 12 57 23 PM](https://user-images.githubusercontent.com/69145033/170939850-597778a1-c412-4ada-bb13-6c8a98ac7946.png)
+
+Once thats done youre good to go
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
